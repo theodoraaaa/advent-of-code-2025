@@ -21,7 +21,7 @@ for(i in rotations){
   print(current)
   
   if(current < 0) {
-    current = 99 + current
+    current = 100 + current
   } else if(current > 99) {
     current = current - 100
   }
@@ -29,7 +29,7 @@ for(i in rotations){
   print(current)
   
   if(current == 0) {
-    zeros + 1
+    zeros = zeros + 1
     }
   
 }
